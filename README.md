@@ -11,7 +11,7 @@ Répartition sur 76pts:
 - qualité du code (architecture, indentation, nommage...): 15pts
 
 ## Contexte
-Vous êtes codeuse JavaScript dans une agence web. Vous venez de gagner un appel d'offre pour le site de la bibliothèque du quartier !
+Vous êtes codeuse JavaScript dans une agence web. Vous venez de gagner un appel d'offre pour le site de la bibliothèque du quartier.
 
 Votre n+1 doit aller à cette biliothèque ASAP avec une proposition. Vous êtes chargée de faire un POC (Prove Of Concept) JavaScript avant ce soir.
 
