@@ -13,7 +13,7 @@ Répartition sur 76pts:
 ## Contexte
 Vous êtes codeuse JavaScript dans une agence web. Vous venez de gagner un appel d'offre pour le site de la bibliothèque du quartier.
 
-Votre n+1 doit aller à cette biliothèque ASAP avec une proposition. Vous êtes chargée de faire un POC (Prove Of Concept) JavaScript avant ce soir.
+Votre n+1 doit aller à cette bibliothèque ASAP avec une proposition. Vous êtes chargée de faire un POC (Prove Of Concept) JavaScript avant ce soir.
 
 Votre site doit permettre aux usagers d'emprunter des ouvrages en ligne.
 
@@ -26,13 +26,13 @@ Le script `./src/index.js` est déjà lié à cette page d'accueil `./public/ind
 `npm start` lance la seed en mode "développement"
 
 ## Consignes
-*Toutes sources d'information autorisée, mais pas de communication pendant le cours. L'aspect individuel/unique de la résolution du problème fait partie de la note*
+*Toutes sources d'information autorisées, mais pas de communication pendant le cours. L'aspect individuel/unique de la résolution du problème fait partie de la note*
 
 *Les copier/coller de code d'internet sont sanctionnés.*
 
 *Vous n'avez pas le droit de toucher au HTML. Tout le site est généré depuis le JavaScript. Pour le CSS, pas de limitation.*
 
-*JQuery est installé et utilisable. Toutes lirairies autorisées (insallation via NPM). Frameworks non autorisés.*
+*JQuery est installé et utilisable. Toutes librairies autorisées (insallation via NPM). Frameworks non autorisés.*
 
 Settings utiles pour profiter de ESLint et Prettier :
 ```
