@@ -71,7 +71,7 @@ Les éléments suivants sont créés dans le `body` via JavaScript:
 - Lorsqu'un utilisateur clique sur "réserver" pour un livre
     - il apparaît dans la réservation du `footer`
     - ce bouton "réserver" devient `disabled`
-- Lorsqu'un utilisateur clique sur "emprunter", la page se vide, et un message indique "Vos x livre(s) sont empruntés. Vous pouvez passer les chercher aujourd'hui, avant h+2", ou
+- Lorsqu'un utilisateur clique sur "emprunter", la page se vide, et un message indique "Vos x livre(s) sont empruntés. Vous pouvez passer les chercher aujourd'hui, à partir de h+2", ou
     - "x" est le nombre de livres
     - "livre(s)" ne prend un "s" que s'il y en a plusieurs
     - "h+2" est l'heure actuelle + 2h
@@ -82,7 +82,7 @@ Les actions suivantes sont impossibles. Si un utilisateur essaye, une alerte le 
 - "réserver" plus de 3 livres
 
 ## LocalStorage
-Si l'utilisateur a déjà emprunté des livres précédemment, il ne voit plus le site en se reconnectant. A la place, il voit la même phrase qu'après l'emprunt: "Vos x livre(s) sont empruntés. Vous pouvez passer les chercher aujourd'hui, avant h".
+Si l'utilisateur a déjà emprunté des livres précédemment, il ne voit plus le site en se reconnectant. A la place, il voit la même phrase qu'après l'emprunt: "Vos x livre(s) sont empruntés. Vous pouvez passer les chercher aujourd'hui, à partir de h".
 
 Le bouton "Annuler la commande" permet de vider le localstorage, puis recharge la page.
 
@@ -95,3 +95,4 @@ Le bouton "Annuler la commande" permet de vider le localstorage, puis recharge l
 - 4 boutons permettent de cacher/afficher les livres par catégorie:
     - un bouton "tout voir" qui montre tout
     - un bouton pour chaque catégorie, qui cache les livres des autres catégories
+- La bibliothèque ouvre à 8h. Si un utilisateurs commande un livre après 22h, codez un meilleur message ?
