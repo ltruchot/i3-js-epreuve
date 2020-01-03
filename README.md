@@ -1,7 +1,7 @@
 # Book en stock
 
 ## Infos
-Novembre 2019 - WAD 2019
+Novembre 2019
 
 JavaScript: Epreuve pratique en 5h
 
@@ -11,13 +11,13 @@ Répartition sur 76pts:
 - qualité du code (architecture, indentation, nommage...): 15pts
 
 ## Contexte
-Vous êtes codeuse JavaScript dans une agence web. Vous venez de gagner un appel d'offre pour le site de la bibliothèque du quartier.
+Vous êtes codeuse/codeur JavaScript dans une agence web. Vous venez de gagner un appel d'offre pour le site de la bibliothèque du quartier.
 
-Votre n+1 doit aller à cette bibliothèque ASAP avec une proposition. Vous êtes chargée de faire un POC (Prove Of Concept) JavaScript avant ce soir.
+Votre n+1 doit aller à cette bibliothèque A.S.A.P. avec une proposition. Vous êtes chargée de faire un P.O.C. JavaScript avant ce soir.
 
 Votre site doit permettre aux usagers d'emprunter des ouvrages en ligne.
 
-Télécharger et utiliser cette seed pour produire votre SPA (Single Page Application).
+Télécharger et utiliser cette seed pour produire votre S.P.A.
 
 Le script `./src/index.js` est déjà lié à cette page d'accueil `./public/index.html` grâce à Webpack.
 
@@ -26,27 +26,25 @@ Le script `./src/index.js` est déjà lié à cette page d'accueil `./public/ind
 `npm start` lance la seed en mode "développement"
 
 ## Consignes
-*Toutes sources d'information autorisées, mais pas de communication pendant le cours. L'aspect individuel/unique de la résolution du problème fait partie de la note*
+*Toutes sources d'information autorisées, mais pas de communication pendant l'épreuve. L'aspect individuel/unique de la résolution du problème fait partie de la note*
 
 *Les copier/coller de code d'internet sont sanctionnés.*
 
-*Vous n'avez pas le droit de toucher au HTML. Tout le site est généré depuis le JavaScript. Pour le CSS, pas de limitation.*
+*On a pas le droit de toucher au HTML. Tout le site est généré depuis le JavaScript. Par contre on peut changer le CSS.*
 
-*JQuery est installé et utilisable. Toutes librairies autorisées (insallation via NPM). Frameworks non autorisés.*
+*JQuery est installé et utilisable. Toutes librairies autorisées (insallation via NPM). Frameworks SPA non autorisés (Angular, React, Vue...).*
 
-Settings utiles pour profiter de ESLint et Prettier :
+Settings VSCode utiles pour profiter de ESLint:
 ```
 {
   "editor.formatOnSave": false,
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": ["javascript"],
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }
 ```
 
-Avant 16h45, envoyez votre travail aux formateurs par mail (zippez votre épreuve **sans le dossier node_modules**) ou via lien github.
+Envoyez votre travail aux formateurs via un lien vers un repo github.
 
 ### Modélisation de données
 Il n'y a que 3 catégories possibles pour les ouvrages: "bd", "roman" ou "essai". Au lancement du site, tous les livres sont disponibles
